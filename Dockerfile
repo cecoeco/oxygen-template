@@ -1,4 +1,9 @@
 FROM julia:1.10
-COPY Project.toml Manifest.toml app.jl ./
+
+COPY Project.toml Manifest.toml ./
+
+COPY src/ ./src/
+
 RUN julia --project -e 'using Pkg; Pkg.instantiate()'
-ENTRYPOINT [ "julia", "--project", "app.jl" ]
+
+ENTRYPOINT [ "julia", "--project", "src/app.jl" ]
