@@ -2,7 +2,7 @@
 
 julia_version = "1.10.2"
 manifest_format = "2.0"
-project_hash = "a25eb6a8c2c61ed8d45ec4ff2a8af040379a123e"
+project_hash = "bfcab134a320acebd431f0fcf751aff80c129f9f"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -11,9 +11,9 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[deps.BitFlags]]
-git-tree-sha1 = "2dc09997850d68179b69dafb58ae806167a32b1b"
+git-tree-sha1 = "0691e34b3bb8be9307330f88d1a3c3f25466c24d"
 uuid = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
-version = "0.1.8"
+version = "0.1.9"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
@@ -146,9 +146,9 @@ version = "1.4.3"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "3da7367955dcc5c54c1ba4d402ccdc09a1a3e046"
+git-tree-sha1 = "a028ee3cb5641cccc4c24e90c36b0a4f7707bdf5"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.0.13+1"
+version = "3.0.14+0"
 
 [[deps.OrderedCollections]]
 git-tree-sha1 = "dfdf5519f235516220579f949664f1bf44e741c5"
@@ -157,9 +157,9 @@ version = "1.6.3"
 
 [[deps.Oxygen]]
 deps = ["DataStructures", "Dates", "HTTP", "JSON3", "MIMEs", "Reexport", "RelocatableFolders", "Requires", "Sockets", "Statistics", "StructTypes"]
-git-tree-sha1 = "edc978d60d435abfc674b3f9f31d74a7ec4740d8"
+git-tree-sha1 = "965ffdb3a6f54d8b33695da1401a29344bc6cc7b"
 uuid = "df9a0d86-3283-4920-82dc-4555fc0d1d8b"
-version = "1.5.8"
+version = "1.5.12"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -256,9 +256,9 @@ deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[deps.TranscodingStreams]]
-git-tree-sha1 = "5d54d076465da49d6746c647022f3b3674e64156"
+git-tree-sha1 = "a947ea21087caba0a798c5e494d0bb78e3a1a3a0"
 uuid = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
-version = "0.10.8"
+version = "0.10.9"
 weakdeps = ["Random", "Test"]
 
     [deps.TranscodingStreams.extensions]
